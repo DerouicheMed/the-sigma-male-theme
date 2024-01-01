@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/DerouicheMed/the-sigma-male-theme"
   },
+  "icon": "./img/the_sigma_male_theme_logo.png",
   "publisher": "MohamedDerouiche",
   "version": "0.0.1",
   "engines": {
