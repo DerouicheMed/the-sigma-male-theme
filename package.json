@@ -1,0 +1,31 @@
+{
+  "name": "the-sigma-male-theme",
+  "displayName": "The Sigma Male Theme",
+  "description": "A vscode color theme used by sigma males and elite programmers.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DerouicheMed/the-sigma-male-theme"
+  },
+  "publisher": "MohamedDerouiche",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "best theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "The Sigma Male Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/the_sigma_male_theme.json"
+      }
+    ]
+  }
+}
