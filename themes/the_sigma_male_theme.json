@@ -9,7 +9,7 @@
     "minimap.background": "#1d1f21",
     "editor.foreground": "#fff",
     "activityBar.foreground": "#ff9fc9",
-    "activityBarBadge.background": "#ff9fc9",
+
     "sideBarTitle.foreground": "#ff9fc9",
 
     "statusBar.background": "#913e88",
@@ -17,14 +17,17 @@
     "statusBar.debuggingBackground": "#0061b1",
 
     "tab.activeBorder": "#ff9fc9",
-    "tabBar.background": "#ff9fc9",
+
+    "tab.activeForeground": "#ff9fc9",
 
     "minimapSlider.background": "#00000000",
 
     "scrollbarSlider.background": "#ff9fc9",
     "scrollbarSlider.activeBackground": "#ff9fc9",
     "scrollbarSlider.hoverBackground": "#ff9fc9",
-    "minimap.sliderBackground": "#1d1f21"
+    "minimap.sliderBackground": "#1d1f21",
+    "activityBarBadge.background": "#ff9fc9",
+    "activityBarBadge.foreground": "#5e5e5e"
   },
   "tokenColors": [
     {
@@ -327,7 +330,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#ff9fc9"
       }
     },
     {
@@ -336,7 +339,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#3bd6ff"
       }
     },
     {
@@ -345,7 +348,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#00ddf4"
       }
     },
     {
@@ -354,7 +357,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ff9fc9"
+        "foreground": "#d5b8ff"
       }
     },
     {
@@ -363,7 +366,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C17E70"
+        "foreground": "#ffa7f6"
       }
     },
     {
@@ -372,7 +375,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#93C9FF"
+        "foreground": "#ffa7f6"
       }
     },
     {
@@ -381,7 +384,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#3bd6ff"
+        "foreground": "#93c9ff"
       }
     },
     {
@@ -587,6 +590,14 @@
     {
       "name": "variable.parameter.function.language.python",
       "scope": ["variable.parameter.function.language.python"],
+      "settings": {
+        "foreground": "#FF9FC9"
+      }
+    },
+
+    {
+      "name": "entity.other.attribute-name.class.css",
+      "scope": ["entity.other.attribute-name.class.css"],
       "settings": {
         "foreground": "#FF9FC9"
       }
