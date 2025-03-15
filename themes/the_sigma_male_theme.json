@@ -152,7 +152,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#d5b8ff"
+        "foreground": "#FF9FC9"
       }
     },
     {
@@ -168,7 +168,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#ff9fc9"
+        "foreground": "#D5B8FF"
       }
     },
     {
@@ -589,9 +589,67 @@
 
     {
       "name": "variable.parameter.function.language.python",
-      "scope": ["variable.parameter.function.language.python"],
+      "scope": [
+        "variable.parameter.function.language.python",
+        "constant.other.caps.python",
+        "meta.function-call.arguments.python"
+      ],
       "settings": {
-        "foreground": "#FF9FC9"
+        "foreground": "#FFFFFF"
+      }
+    },
+
+    {
+      "name": "string.quoted.docstring.multi.python",
+      "scope": ["string.quoted.docstring.multi.python"],
+      "settings": {
+        "foreground": "#FFA7f6"
+      }
+    },
+
+    {
+      "name": "source.python",
+      "scope": ["source.python"],
+      "settings": {
+        "foreground": "#FFF"
+      }
+    },
+
+    {
+      "name": "Python Self",
+      "scope": [
+        "variable.language.special.self.python",
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#00ddf4"
+      }
+    },
+
+    {
+      "name": "Python Function Attr",
+      "scope": ["variable.parameter.function-call.python"],
+      "settings": {
+        "foreground": "#FFF"
+      }
+    },
+
+    {
+      "name": "Python Comment",
+      "scope": [
+        "comment.line.number-sign.python",
+        "punctuation.definition.comment.python"
+      ],
+      "settings": {
+        "foreground": "#c6c6c6"
+      }
+    },
+
+    {
+      "name": "meta.function.parameters.python",
+      "scope": ["meta.function.parameters.python", "support.type.python"],
+      "settings": {
+        "foreground": "#D5B8FF"
       }
     },
 
@@ -600,6 +658,33 @@
       "scope": ["entity.other.attribute-name.class.css"],
       "settings": {
         "foreground": "#FF9FC9"
+      }
+    },
+
+    {
+      "name": "HTML Attributes",
+      "scope": ["entity.other.attribute-name.html"],
+      "settings": {
+        "foreground": "#ffa7f6"
+      }
+    },
+
+    {
+      "name": "HTML Comments",
+      "scope": ["comment.block.html"],
+      "settings": {
+        "foreground": "#c6c6c6"
+      }
+    },
+
+    {
+      "name": "HTML Tags",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#3bd6ff"
       }
     }
   ]
